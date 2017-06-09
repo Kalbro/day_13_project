@@ -1,4 +1,52 @@
-.blue{
-  height: 200px;
-  background: blue;
+h1{
+  color: white;
+  background: #5189c7;
+  padding: 10px;
+  margin-top: 0;
+  border-bottom: thin solid grey;
+
+  font-weight: lighter;
+  text-align: left;
+  font-size: 20px;
+  padding: 20px;
+  padding-right: 250px;
+
+}
+main{
+  display: flex;
+  justify-content: center;
+
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  border: solid thin grey;
+border-radius: 5px;
+}
+
+input{
+  margin:10px;
+  padding:10px;
+}
+
+button{
+  background: #5189c7;
+  padding: 20px;
+}
+
+
+div{
+  background: #ccddef;
+  padding:15px;
+}
+
+textarea{
+  margin: 10px;
+  padding-bottom: 40px;
+}
+
+select{
+  margin: 10px;
+
 }

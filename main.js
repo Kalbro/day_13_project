@@ -30,7 +30,7 @@ for (var i = 0; i < formData.length; i++) {
 }
   var newDiv = document.createElement('div');
   var formSubmit = document.createElement('input');
-  formSubmit.type = 'sumbit';
+  formSubmit.type = 'button';
   formSubmit.value = "Submit Form";
   formElement.appendChild(newDiv);
   newDiv.appendChild(formSubmit);
