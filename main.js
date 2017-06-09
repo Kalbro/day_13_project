@@ -32,5 +32,6 @@ for (var i = 0; i < formData.length; i++) {
   var formSubmit = document.createElement('input');
   formSubmit.type = 'button';
   formSubmit.value = "Submit Form";
+  formSubmit.id = "submit-btn";
   formElement.appendChild(newDiv);
   newDiv.appendChild(formSubmit);
